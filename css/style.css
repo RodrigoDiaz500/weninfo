@@ -1,0 +1,67 @@
+/* Estilos para el carrusel del home */
+#homeCarousel .carousel-item img {
+    height: 500px; /* Ajusta la altura deseada para las imágenes del carrusel principal */
+    object-fit: cover; /* Asegura que la imagen cubra el área sin distorsionarse */
+    filter: brightness(0.7); /* Oscurece un poco la imagen para que el texto resalte */
+}
+
+/* Estilos para los carruseles de las páginas de servicios (Construcción, Gasfitería, Electricidad) */
+#carouselConstruccion .carousel-item img,
+#carouselGasfiteria .carousel-item img,
+#carouselElectricidad .carousel-item img {
+    height: 450px; /* Ajusta la altura para los carruseles de proyectos */
+    object-fit: cover;
+    filter: brightness(0.7);
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente para el texto */
+    padding: 15px;
+    border-radius: 8px;
+    bottom: 10%; /* Ajusta la posición vertical del texto */
+    /* Asegura que el texto sea legible */
+    color: white;
+}
+
+/* Estilos para las tarjetas de servicios en index.html y servicios.html */
+.card-img-top {
+    height: 200px; /* Altura fija para las imágenes de las tarjetas */
+    object-fit: cover; /* Asegura que la imagen se ajuste */
+}
+
+/* Estilos para las imágenes de 'Nosotros' (equipo) */
+.rounded-circle {
+    border: 3px solid #007bff; /* Borde azul para las fotos del equipo */
+    margin-bottom: 10px; /* Espacio debajo de la imagen del equipo */
+}
+
+.nosotros .card {
+    margin: 20px; /* Espacio entre las tarjetas del equipo */
+    text-align: center; /* Centra el texto dentro de las tarjetas */
+    color: #ffffff;
+}
+
+.logo{
+    width: 150px; /* Ajusta el tamaño del logo */
+    height: auto; /* Mantiene la proporción del logo */
+    align-items: first baseline;
+    margin: auto; /* Centra el logo horizontalmente */
+    margin-right: 50px;
+}
+
+/* Ajustes generales para el cuerpo del sitio */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que el footer se quede abajo */
+}
+
+main {
+    flex: 1; /* Permite que el contenido principal ocupe el espacio restante */
+}
+
+h2
+{
+    color: #007bff; /* Color azul para los títulos */
+    text-align: center;
+}
